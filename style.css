@@ -904,3 +904,68 @@ footer {
         gap: 12px;
     }
 }
+/* Contact Section */
+
+.contact-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 24px;
+}
+
+.contact-content {
+    padding: 80px 40px;
+    text-align: center;
+
+    border-radius: 24px;
+    background: #111827;
+    color: #ffffff;
+}
+
+.contact-content .section-label {
+    color: #a5b4fc;
+}
+
+.contact-content h2 {
+    font-size: 52px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+}
+
+.contact-content p {
+    max-width: 600px;
+    margin: 0 auto 35px;
+
+    color: #d1d5db;
+    font-size: 17px;
+}
+
+.contact-btn {
+    display: inline-block;
+
+    padding: 14px 24px;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #111827;
+
+    font-weight: 600;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .contact-section {
+        padding: 80px 24px;
+    }
+
+    .contact-content {
+        padding: 60px 24px;
+    }
+
+    .contact-content h2 {
+        font-size: 38px;
+    }
+}
