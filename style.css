@@ -749,3 +749,158 @@ footer {
         margin-top: 40px;
     }
 }
+/* Courses Section */
+
+.courses-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 24px;
+    text-align: center;
+}
+
+.courses-section h2,
+.products-section h2 {
+    font-size: 48px;
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.course-card {
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+}
+
+.course-image {
+    height: 230px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #111827;
+    color: #ffffff;
+
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.course-content {
+    padding: 30px;
+}
+
+.course-level,
+.product-type {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #6366f1;
+}
+
+.course-content h3,
+.product-content h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.course-content p,
+.product-content p {
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 25px;
+    padding-top: 20px;
+
+    border-top: 1px solid #eeeeee;
+}
+
+.course-footer strong {
+    font-size: 14px;
+}
+
+.course-footer a,
+.product-link {
+    font-weight: 600;
+}
+
+
+/* Digital Products */
+
+.products-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 120px 24px;
+    text-align: center;
+    background: #f9fafb;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.product-card {
+    padding: 35px;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+}
+
+.product-content h3 {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.product-link {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .courses-section,
+    .products-section {
+        padding: 80px 24px;
+    }
+
+    .courses-section h2,
+    .products-section h2 {
+        font-size: 36px;
+    }
+
+    .courses-grid,
+    .products-grid {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .course-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+}
